@@ -6,6 +6,10 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Onepage Starter",
+    description: "Minimalistic gatsby starter with tailwind css"
+  },
   plugins: [
     `gatsby-plugin-postcss`,
     {
